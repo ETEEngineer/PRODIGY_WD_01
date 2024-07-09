@@ -1,0 +1,183 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.header {
+    background-color: #ff6666; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white; 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #ff4d4d; 
+    color: white;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.about {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; 
+}
+
+.centered {
+    text-align: center;
+    color: #ff6666; 
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffcccc; 
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cta-button {
+    background-color: #ff6666; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #ff4d4d; 
+}
+
+
+.services {
+    padding: 20px;
+    background-color: #f2f2f2; 
+}
+
+.service-item {
+    margin-bottom: 20px;
+}
+
+.service-item h2 {
+    color: #ff6666; 
+}
+
+.service-item p {
+    color: #666; 
+}
+
+
+.contact {
+    padding: 20px;
+    background-color: #f9f9f9; 
+}
+
+.scroll-message {
+    font-weight: bold;
+    color: #ff6666; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.scrollable-content {
+    max-height: 400px; 
+    overflow: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    color: #ff6666; 
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #ff6666; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff4d4d; 
+}
+
+.social-media {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #ff6666; 
+    display: flex;
+    align-items: center;
+}
+
+.social-link i {
+    margin-right: 5px;
+}
+
+.social-link:hover {
+    color: #ff4d4d; 
+}
